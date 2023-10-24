@@ -1,0 +1,133 @@
+    *{
+        font-family: 'Unbounded', sans-serif;
+        background: #004643;
+    }
+    /* Navigation */
+    .Navigation{
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+    .Navigation .nav{  
+        padding: 7px 14px;
+        width: 30%;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.10);
+        border-radius: 50px;
+    }
+    .Navigation .nav-link a{
+        background: none;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 400;
+        color: aliceblue;
+    }
+    /* End */
+
+    /* HeroSection */
+    .Herosection{
+        padding: 60px 0;
+    }
+    .Herosection h1{
+        font-size: 117px;
+        color: aliceblue;
+    }
+    .Herosection p{
+        font-size: 17px;
+        font-weight: 300;
+        color: #abd1c6;
+    }
+    .Herosection .btn-element-1{
+        background: #004643;
+        border: 1px solid #abd1c6;
+    }
+    .Herosection .btn-element-1:hover{
+        background: #004643;
+        border: 1px solid #abd1c6;
+    }
+    .Herosection .btn-element-2{
+        background: #fff;
+        color: #004643;
+        border: none;
+    }
+    .Herosection .btn-element-2:hover{
+        background: #004643;
+        border: 1px solid #abd1c6;
+    }
+    /* End */
+
+    /* Skil Element */
+    .skill-element{
+        display: grid;
+        justify-content: center;
+    }
+    .skill-element .card{
+        border:2px solid #abd1c6;
+        color:#fff ;
+    }
+    .skill-element .col .card-body .card-text{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+    /* End */
+
+    /* Case study */
+    .case-study{
+        margin: 60px 0;
+    }
+
+    .case-study h1{
+        font-size: 80px;
+        color: #abd1c6;
+    }
+    /* About Pages  */
+    .about-pages-element{
+        padding: 60px 0;
+    }
+    .about-pages-element .heading-text h1{
+        font-size: 80px;
+        color: #fff;
+    }
+    .about-pages-element .content-element{
+        padding: 60px 0;
+    }
+    .about-pages-element .element-text{
+        padding: 120px 0;
+    }
+    .about-pages-element img{
+        margin: 30px 0;
+        margin-left: 120px;
+        width: 60%;
+        border-radius: 150px 150px 0px 0px;
+    }
+    .about-pages-element .element-text h3{
+        font-size: 35px;
+        line-height: 53px;
+        color: #fff;
+    }
+    .about-pages-element .element-text p{
+        font-size: 15px;
+        line-height: 30px;
+        font-weight: 300;
+        color: #abd1c6;
+    }
+    /* End */
+    /* Footer */
+    .footer-element-section{
+        padding: 60px 170px;
+    }
+    .footer-element-section  .element-card-tiktok{
+        padding: 20px 10px;
+        background: #abd1c6;
+    }
+    .footer-element-section h5{
+        color: #fff;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .footer-element-section a{
+        color: #abd1c6;
+        font-weight: 300;
+        font-size: 13px;
+        text-decoration: none;
+    }
