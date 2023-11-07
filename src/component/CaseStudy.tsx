@@ -1,30 +1,70 @@
 import { Row, Col, Container } from "react-bootstrap";
+import React, { useRef, useState } from 'react';
 
-import image from '../assets/img/Image.png';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Image Slider Assets
+import Image1 from "../assets/img/Aplikasi Al-Quran.jpg";
+import Image2 from "../assets/img/Childish.jpg";
+import Image3 from "../assets/img/Izada.jpg";
+import Image4 from "../assets/img/Landing Page School.jpg";
+import Image5 from "../assets/img/Landing Page.jpg";
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 function CaseStudy() {
   return (
-    <div className='case-study'>
+    <div className="case-study">
       <Container>
-        <div className='element-items-case-text'>
-            <h1 className='text-center'>Case Studies</h1>
+        <div className="title-heading-case">
+          <div className="text-items">
+          <h5>My Selected Works</h5>
+          <span>Experince Work</span>
+          </div>
+          <div className="icons-items">
+          </div>
         </div>
-        <div className='card-portofolio-elements'>
-          <Row>
-            <Col>
-              <div className='card-element'>
-                <img src={image}/>
-              </div>
-            </Col>
-            <Col>
-            <div className='card-element'>
-                <img src={image}/>
-              </div></Col>
-          </Row>
+        <div className="slider-items">
+        <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: false,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src={Image1} alt="" srcset="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Image2} alt="" srcset="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Image3} alt="" srcset="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Image4} alt="" srcset="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Image5} alt="" srcset="" />
+        </SwiperSlide>
+      </Swiper>
         </div>
-        </Container>
+      </Container>
     </div>
-  )
+  );
 }
 
 export default CaseStudy;

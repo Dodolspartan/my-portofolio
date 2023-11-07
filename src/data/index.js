@@ -1,3 +1,6 @@
+import Portofoli1 from "../assets/img/Project1.png";
+
+
 export const navLinks = [
     {
       id: 1,
@@ -10,10 +13,16 @@ export const navLinks = [
       text: "About",
     },
     {
+      id:4,
+      path: "produk",
+      text: "Product",
+    },
+    {
       id: 3,
       path: "contact",
       text: "Contact",
     },
-  
   ];
+
+  
   

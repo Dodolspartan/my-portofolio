@@ -1,16 +1,43 @@
 import React from "react";
-import { Container, Button } from "react-bootstrap";
+import { Container, Button, Row, Col } from "react-bootstrap";
+import image from "../assets/img/dd.jpg";
+
 
 function Herosection() {
   return (
     <div className="Herosection">
       <Container>
-        <h1 className="text-center">Hi. I'm Dadi. Farisa Dev.</h1>
-        <p className="text-center">I'm passionate about crafting experiences that are engaging, accessible, and user-centric.</p>
-        <div className="d-flex justify-content-center mt-5">
-            <Button className="mx-3 btn-element-1">Select Work</Button>
-            <Button className="btn-element-2">Resume</Button>
-        </div>
+        <Row>
+          <Col xs="7">
+            <div className="title-heading-hero">
+              <h1>
+              Hi, I'm Dadi Farisa 👋🏻 I'm a Graphic Designer and Web Developer <strong>with experience
+ 2 years developing fun products</strong>{" "}
+              </h1>
+            </div>
+            <Row>
+              <Col>
+              <div className="items-left-hero">
+                <h3>Based in Tangerang, Indonesia</h3>
+                <h3>GMT +7</h3>
+                </div>
+              </Col>
+              <Col>
+              <div className="items-right-hero">
+                <h3>
+                  Let's dive into the universe of tech, design, and business
+                  together!
+                </h3>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+          <Col xs="5">
+          <div className="items-comp-right-hero">
+            <img src={image} alt="" /> 
+            </div>         
+          </Col>
+        </Row>
       </Container>
     </div>
   );

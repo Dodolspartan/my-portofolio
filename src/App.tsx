@@ -4,6 +4,7 @@ import  Navigation  from './component/Navigation'
 import WorkPages from "./pages/WorkPages";
 import AboutPages from "./pages/AboutPages";
 import ContactPages from "./pages/ContactPages";
+import ProductPages from "./pages/ProductPages";
 function App() {
  
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/" Component={WorkPages}></Route>
             <Route path="/about" Component={AboutPages}></Route>
             <Route path="/contact" Component={ContactPages}></Route>
+            <Route path="/produk" Component={ProductPages}></Route>
           </Routes>
         <FooterEl />
       </div>
