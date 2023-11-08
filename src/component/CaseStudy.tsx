@@ -1,5 +1,4 @@
-import { Row, Col, Container } from "react-bootstrap";
-import React, { useRef, useState } from 'react';
+import {  Container } from "react-bootstrap";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -46,19 +45,19 @@ function CaseStudy() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={Image1} alt="" srcset="" />
+          <img src={Image1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Image2} alt="" srcset="" />
+          <img src={Image2} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Image3} alt="" srcset="" />
+          <img src={Image3} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Image4} alt="" srcset="" />
+          <img src={Image4} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Image5} alt="" srcset="" />
+          <img src={Image5} alt="" />
         </SwiperSlide>
       </Swiper>
         </div>

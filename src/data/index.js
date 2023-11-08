@@ -1,4 +1,3 @@
-import Portofoli1 from "../assets/img/Project1.png";
 
 
 export const navLinks = [

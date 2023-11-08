@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Col, Container, Form, Row, Button } from "react-bootstrap";
 
 function ContactPages() {

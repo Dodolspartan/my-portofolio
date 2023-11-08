@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Container, Row, Col } from "react-bootstrap";
 import { BsLinkedin, BsInstagram, BsTiktok, BsDribbble } from "react-icons/bs";
 import Image from "../assets/img/Footer.png";

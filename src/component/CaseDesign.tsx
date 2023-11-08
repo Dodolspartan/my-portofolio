@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Row, Col, Container } from "react-bootstrap";
 
 function CaseDesign() {
