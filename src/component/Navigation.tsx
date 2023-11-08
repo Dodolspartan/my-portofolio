@@ -1,8 +1,31 @@
 import { useState, useEffect } from 'react';
 
 import Nav from 'react-bootstrap/Nav';
-import { navLinks } from "../data/index";
 import { NavLink } from "react-router-dom";
+
+export const navLinks = [
+  {
+    id: 1,
+    path: "",
+    text: "Work",
+  },
+  {
+    id: 2,
+    path: "about",
+    text: "About",
+  },
+  {
+    id:4,
+    path: "produk",
+    text: "Product",
+  },
+  {
+    id: 3,
+    path: "contact",
+    text: "Contact",
+  },
+];
+
 
 function Navigation() {
 
@@ -28,11 +51,11 @@ function Navigation() {
   return (
     <div className='Navigation'>
       <Nav className={`navbar ${isSticky ? 'sticky' : ''}`} as="ul">
-        {navLinks.map((link) => (
-          <div className="nav-link" key={link.id}>
-            <NavLink to={link.path} className={({ isActive, isPending }) =>
+        {navLinks.map((nav) => (
+          <div className="nav-link" key={nav.id}>
+            <NavLink to={nav.path} className={({ isActive, isPending }) =>
               isPending ? "pending" : isActive ? "active" : ""
-            }>{link.text}</NavLink>
+            }>{nav.text}</NavLink>
           </div>
         ))}
       </Nav>
