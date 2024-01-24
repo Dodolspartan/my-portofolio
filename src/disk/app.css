@@ -424,6 +424,21 @@
   }
 
   /* End */
+
+  /* About */
+  .about-pages-element {
+    font-family: "Unbounded", sans-serif;
+    padding: 60px 0px;
+  }
+
+  .about-pages-element h3 {
+    font-size: 20px;
+    line-height: 53px;
+    color: #fff;
+  }
+
+  /* End */
+
   /* HeroSection */
   .Herosection {
     padding: 10px 10px;
@@ -582,44 +597,7 @@
   }
 
   /* End */
-/* About Pages  */
-.about-pages-element {
-  font-family: "Unbounded", sans-serif;
-  padding: 10px 10px;
-}
 
-.about-pages-element .heading-text h1 {
-  font-size: 40px;
-  color: #fff;
-}
-
-.about-pages-element .content-element {
-  padding: 20px 0;
-}
-
-.about-pages-element .element-text {
-  padding: 10px 0;
-}
-
-.about-pages-element img {
-  width: 40%;
-  border-radius: 150px 150px 0px 0px;
-}
-
-.about-pages-element h3 {
-  font-size: 35px;
-  line-height: 53px;
-  color: #fff;
-}
-
-.about-pages-element p {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 200;
-  color: #ffffff;
-}
-
-/* End */
   /* Contact Pages */
   .contact-page-element {
     font-family: "Unbounded", sans-serif;
@@ -644,9 +622,11 @@
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
   }
-  .contact-page-element .row .col-8{
+
+  .contact-page-element .row .col-8 {
     width: auto;
   }
+
   .contact-page-element input {
     width: 100%;
     border-radius: 8px;
@@ -667,7 +647,8 @@
     color: #000;
     background: #ffffff;
   }
-  .contact-page-element .element-button-contact:hover{
+
+  .contact-page-element .element-button-contact:hover {
     background: #ffffff;
     color: #1f1e1e;
   }
